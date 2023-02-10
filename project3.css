@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem,5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .15);
+    background-color: rgb(255, 255, 255)!important;
+}
+a:hover{
+    background-color: #14293e!important;
+    color: #ffff!important;
+}
+.btn:hover{
+    background-color: #14293e!important;
+    color: #ffff!important;
+}
+#navbarsupportedcontent{
+    color: #ffff!important;
+}
+/* HOME */
+#home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    background-color: #14293e!important;
+    overflow: hidden;
+}
+.row p{
+    color: #ffff;
+    text-align: start;
+}
+.row img{
+    position:center ;
+}
+.row .col-lg-4{
+    overflow: hidden;
+}
+.row .col-lg-4 button{
+    background-color:orange!important ;
+    color: black!important;
+}
+/* PRODUCT */
+.row .card{
+    background-color:#e5e5e5!important ;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0,.3)
+                 insert 4px 4px 10px #ffff;
+    border-radius: 40px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    transition: .2s;
+}
+.card-body a:hover{
+    background-color: rgb(202, 183, 76)!important ;
+}
+/* ABOUT-US */
+#about{
+    background-color: #14293e!important;
+}
+#about p{
+    text-align:justify;
+}
+/*CONTACT*/
+#contact{
+    background-color: #14293e!important;
+}
+#contact label{
+    color: #e5e5e5;
+}
+#contact h5{
+    color:#fff;
+}
+/* ORDER */
+#order{
+    background-color: #14293e!important;
+}
+#order button{
+    display: flex;
+}
+#order p{
+    text-align: justify;
+}
+#order1{
+    background-color: #14293e!important;
+}

@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem,5rem;
+}
+#navbar{
+    background-color:#2C3A47!important;
+}
+.carousel-item img {
+    height: 350px;
+}
+.nav-item a:hover{
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    color: black !important;
+}
+.col-lg-6 .card img {
+    height: 200px !important;
+    width: 500px !important;
+    border-radius: 2px;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+}
+.col-lg-6 .card {
+    border: none !important;
+}
+.col-lg-6  .card-body {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.col-lg-6  .card-body button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1px;
+}
+.col-lg-6  .card-body button h6{
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+.col-lg-3 .card {
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px 5px  rgb(150, 150, 150);
+    margin-bottom: 30px !important;
+}
+.col-lg-3 .card-body h5 {
+    font-size:10px !important;
+}
+.col-lg-3 .card img {
+    height: 200px;
+    width: 400px;
+}
+.col-lg-3 .card-body .btn h6{
+    font-size: 8px !important;
+}
+#product .row .col-lg-6 .btn a h6{
+    text-decoration: none !important;
+}
+button a{
+    text-decoration: none !important;
+}
+#contact{
+    background-color: #2C3A47;
+}
+#contact .container .row .col-lg-3 {
+    margin-top: 15px !important;
+} 
+#contact1 {
+    background-color: #2C3A47;
+}
+#btnn{
+    display: flex;
+    align-items: center !important;
+    background-color: #fff;
+}
+#bag{
+    display: flex;
+}
+.flexx{
+    display: flex;
+    align-items: center !important;
+}
+@media(max-width: 600px){
+    #navbar a h6 {
+        margin: 0 !important;
+    }
+    #carouselExampleIndicators img{
+        height: 200px !important;
+    }
+    #product h1{
+        margin-top: 30px !important;
+        margin-bottom: 15px !important;
+        font-size: 11px;
+    }
+    .row{
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 8px;
+    }
+    .card-body button h6 {
+        font-size: 7px !important;
+    }
+    .col-lg-6 .card-body{
+        padding: 0% !important;
+    }
+    .col-lg-6  .btn {
+        padding: 2px !important;
+    }
+    .col-lg-6 .card-body .btn h6 {
+        margin-top: 1px;
+        margin-bottom: 0 !important;
+        text-align: center !important;
+    }
+    .col-lg-6 .card img {
+        height: 100px !important;
+        width: 200px !important;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    .col-lg-6 .card-body button {
+        margin-top: 9px !important;
+    }
+    .col-lg-6 .card-body button svg {
+        height: 9px;
+        width: 9px;
+    }
+    .col-lg-3 .card img{
+        height: 100px;
+    }
+    #veg .row{
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 8px;
+    }
+    #veg h1 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        font-size: 11px;
+    }
+    #non-veg h1 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        font-size: 11px;
+    }
+    #fry h1 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        font-size: 11px;
+    }
+    #gee-sweet h1 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        font-size: 11px;
+    }
+    .col-lg-3 .card-body h5 {
+        font-size: 7px !important;
+    }
+    .col-lg-3 .btn h6{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 3px !important;
+        margin: 0 !important;
+    }
+    .col-lg-3 .card-body {
+        padding: 10px !important;
+    }
+    .col-lg-3 .card-body .btn h6{
+        font-size: 4px !important;
+    }
+    .col-lg-3 .card img {
+        border-radius: 2px;
+        box-shadow: none !important;
+    }
+    .col-lg-3 .card { /**/
+        border-radius: 2px;
+        box-shadow: 4px 4px 4px 4px rgb(150, 150, 150);
+        margin-bottom: 3px !important;
+    }
+    #contact .container .row .col-lg-3 h5 {
+        font-size: 11px !important;
+    }
+    #contact .container .row .col-lg-3 h6 {
+        font-size: 5px !important;
+    }
+    #contact{
+        margin-top: 30px !important;
+    }
+    #contact1 h5{
+        font-size: 6px !important;
+    }
+    #visa{
+        margin-top: 10px !important;
+    }
+    .navbar-brand h6{
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
+    }
+    #navbarNav ul li {
+        font-size: 10px !important;
+    }
+    #carouselExampleIndicators img{
+        height: 200px !important;
+    }
+    #btnn{
+        font-size: 9px !important;
+    }
+}
